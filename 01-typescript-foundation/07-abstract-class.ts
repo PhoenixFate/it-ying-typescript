@@ -19,6 +19,7 @@ class Dog2 extends Animal2{
         super(name)
         this.name=name
     }
+    // 抽象类的子类必须实现抽象类里面的抽象方法
     eat(){
         console.log("dog2 eat")
     }
@@ -29,6 +30,7 @@ class Cat2 extends Animal2{
         super(name)
         this.name=name
     }
+    // 抽象类的子类必须实现抽象类里面的抽象方法
     eat(){
         console.log("cat2 eat")
     }

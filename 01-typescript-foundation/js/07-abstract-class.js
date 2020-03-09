@@ -33,6 +33,7 @@ var Dog2 = /** @class */ (function (_super) {
         _this.name = name;
         return _this;
     }
+    // 抽象类的子类必须实现抽象类里面的抽象方法
     Dog2.prototype.eat = function () {
         console.log("dog2 eat");
     };
@@ -45,6 +46,7 @@ var Cat2 = /** @class */ (function (_super) {
         _this.name = name;
         return _this;
     }
+    // 抽象类的子类必须实现抽象类里面的抽象方法
     Cat2.prototype.eat = function () {
         console.log("cat2 eat");
     };
