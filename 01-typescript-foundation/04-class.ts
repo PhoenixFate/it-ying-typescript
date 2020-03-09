@@ -75,7 +75,7 @@ class Woman extends Person{
     }
 }
 let woman=new Woman('小红',20)
-woman.run()
+woman.run() 
 console.log(woman.name)
 // 3 类里面的修饰符  typescript里面定义属性的时候给我们提供了 三种修饰符
 /*
